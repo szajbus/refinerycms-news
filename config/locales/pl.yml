@@ -20,7 +20,8 @@ pl:
             no_items_yet: 'W bazie nie ma żadnych rezultatów, dodaj nową aktualizację.'
       shared:
         items:
-          created_at: "Dodano %{when}"
+          read_more: Czytaj więcej
+          created_at: 'Utworzono %{when}'
         archives: Archiwum
       items:
         show:
@@ -36,7 +37,7 @@ pl:
           source: Źródło
         archive:
           news_item_archive_for: 'Archiwum dla %{date}'
-          no_news_articles_posted: 'Brak aktualności w %{date}.'
+          no_news_item_articles_posted: 'Nie ma artykułów opublikowanych w %{date}.'
   activerecord:
     attributes:
       'refinery/news/item':
